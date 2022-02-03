@@ -7,6 +7,7 @@
 # - Magus: 40 HP, 20 ATK, 5 DEF
 # - Paladin: 55 HP, 15 ATK, 8 DEF
 # Each player can attack. The received damage must be (Player ATK - Enemy DEF)
+# Show the received damage and the HP amount
 
 
 class Player:
@@ -21,3 +22,7 @@ def main():
     warrior.attack(magus)
     magus.attack(paladin)
     paladin.attack(warrior)
+
+
+if __name__ == "__main__":
+    main()
